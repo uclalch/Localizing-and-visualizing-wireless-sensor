@@ -1,6 +1,6 @@
 # Localizing and Visualizing Wireless Sensors.
 
-## Objective Description
+## Objective
 Nowadays Iot is developing in an incredibly fast pace, and tons of sensors are involved into this process, which provides us better experiences with Iot concepts. In order to allow users to access the sensors' measurements faster and easier, we are trying to generate a method that not only localizes the surrounding unknown sensors accurately, but also displays those sensors on a smartphone's screen everytime they are captured by the camera of that smart phone.
 
 ## Envisioned Approach
