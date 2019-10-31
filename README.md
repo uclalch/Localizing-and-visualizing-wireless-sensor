@@ -32,8 +32,17 @@ To start with our project, we have to first think about how to localize the unkn
 * GnuRadio Tutorials and various Github Repositories.
 
 ## Major milestones
-Waiting
+1. Complete GnuRadio tutorial.
+2. Find phase shift of the two antennas on the USRP device.
+3. Use another device(like a smart phone) to locate the position of the USRP device.
+4. Use USRP to detect known wireless devices.
+5. Use USRP to detect unknown wireless devices.
+6. Display the detected devices through a AR framework.
+7. Show detail information of detected deivces.
+
 ## Success metrics
-Waiting
+* The system can detect unknown broadcasting wireless devices within 10m and the error of distance difference is less than 30cm.
+* The AR visualization can correctly display the detected devices and map their locations to the environment with error of distance difference less than 10cm.
+* (Stretch goal) The system can calculate and display more details of detected devices, such as device type and transmission rate.
 ## Experimental validation plan
-Waiting
+Pending
