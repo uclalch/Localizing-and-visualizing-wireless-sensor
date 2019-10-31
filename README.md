@@ -30,3 +30,10 @@ To start with our project, we have to first think about how to localize the unkn
 * When IoT met Augmented Reality: Visualizing the Source of the Wireless Signal in AR View (AR framework)
 * Accurate Indoor Localization With Zero Start-up Cost (USRP localization)
 * GnuRadio Tutorials and various Github Repositories.
+
+## Major milestones
+Waiting
+## Success metrics
+Waiting
+## Experimental validation plan
+Waiting
