@@ -45,4 +45,4 @@ To start with our project, we have to first think about how to localize the unkn
 * The AR visualization can correctly display the detected devices and map their locations to the environment with error of distance difference less than 10cm.
 * (Stretch goal) The system can calculate and display more details of detected devices, such as device type and transmission rate.
 ## Experimental validation plan
-Pending
+The experiment that we are planning to conduct is to set up broadcasting wireless divices in a room, which constantly generates radio waves that allow our product to detect. Then we use the USRP product to detect these signals. Once we detect the signals and figure out the exact locations of these hidden devices, we are almost successful in this project. The last thing that we need to validate is that we are going to display these information we gathered on our cellphones. This experiment will be designed specifically with respect to success metrics. But before this final experiment, we will also conduct slightly smaller experiments, just to make sure we meet every major milestones.
