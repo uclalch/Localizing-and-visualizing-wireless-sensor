@@ -32,13 +32,15 @@ To start with our project, we have to first think about how to localize the unkn
 * GnuRadio Tutorials and various Github Repositories.
 
 ## Major milestones
-1. Complete GnuRadio tutorial.
-2. Find phase shift of the two antennas on the USRP device.
-3. Use another device(like a smart phone) to locate the position of the USRP device.
-4. Use USRP to detect known wireless devices.
-5. Use USRP to detect unknown wireless devices.
-6. Display the detected devices through a AR framework.
-7. Show detail information of detected deivces.
+1.	Implement Wifi receiver on GNU radio
+2.	Implement a Wifi receiver flow graph on GNU radio that can find the phase difference between the two receiver antennas.
+3.	Connect two USRP boards to create a 2 receiver antenna setup
+4.	Test the flow graph you created in step 2 on the setup you created in step 3.
+5.	Detect angle of elevation using your setup.
+6.	Detect azimuth angle using your setup.
+7.	Connect a smartphone/IMU to your setup to keep track of changes in the detected elevation and azimuth angles of the hidden device.
+8.	Integrate this information with camera app to augment the location of the hidden device.
+
 
 ## Success metrics
 * The system can detect unknown broadcasting wireless devices within 10m and the error of distance difference is less than 30cm.
