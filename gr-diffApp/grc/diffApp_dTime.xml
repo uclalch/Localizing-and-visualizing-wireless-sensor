@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<block>
+  <name>dTime</name>
+  <key>diffApp_dTime</key>
+  <category>[diffApp]</category>
+  <import>import diffApp</import>
+  <make>diffApp.dTime()</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>wave_1</name>
+    <type>float</type>
+  </sink>
+
+  <sink>
+    <name>wave_2</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>timeDiff</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>flag</name>
+    <type>float</type>
+  </source>
+</block>
