@@ -1,11 +1,29 @@
 This is the module developed by Alic for the 2019 Fall EE202 course project.
 -----------------------------
 Functions:
-    Two blocks developed for GNURadio are included. This module aims to detect the peaks of two receiving signals and determine the time differences between the two peaks and which wave is later.
-    The dTime block is made to detect the time difference of two real-world receiving signals. The module need a few seconds to collect the data and output the reliable and stable result.
-    The idealdt block is an experimental block for validate the time difference functionality. The module takes in two ideal sinusoid waves with intentional delays and output the time difference between the two arriving signals.
-
-
+    Two blocks developed for GNURadio are included. This module aims to detect the peaks of two receiving signals 
+    and determine the time differences between the two peaks and which wave is later.
+    
+    The dTime block is made to detect the time difference of two real-world receiving signals. 
+    The module need a few seconds to collect the data and output the reliable and stable result.
+    
+    The idealdt block is an experimental block for validate the time difference functionality. 
+    The module takes in two ideal sinusoid waves with intentional delays and output the time difference between the two arriving signals.
+-------------------------------
+Connections:
+    input (wave1{float32}, wave2{float32})
+    output (timeDiff{float32}, flag{float32})
+    wave must be at sample rate of 32MHz (due to hard coding inside the python files)
+    timeDiff uses unit of microsecond (us)
+    flag: 1.00 (wave_1 is late) 2.00 (wave_2 is late) 3.00 (not determined yet)
+--------------------------------
+Install:
+    To install the module to GNURadio:
+    mkdir build >> cd build >> cmake .. >> make >> make test >> sudo make install >> sudo ldconfig
+----------------------------------
+Folder:
+    /grc folder contains GNURadio flowchart diagram as GNURadio setup for this module and blocks
+------------------------------------
 This is the diffApp-write-a-block package meant as a guide to building
 out-of-tree packages. To use the diffApp blocks, the Python namespaces
 is in 'diffApp', which is imported as:
