@@ -1,5 +1,11 @@
 This is the module developed by Alic for the 2019 Fall EE202 course project.
-#Function:
+-----------------------------
+Functions:
+    Two blocks along with corresponding GNURadio flowcharts are included. This module aims to detect the peaks of two receiving signals 
+and determine the time differences between the two peaks and which wave is later.
+    The dTime block is made to detect the time difference of two real-world receiving signals.
+    After a few seconds and then output the reliable and stable result.
+    One is dTime: it takes in 
 
 
 This is the diffApp-write-a-block package meant as a guide to building
