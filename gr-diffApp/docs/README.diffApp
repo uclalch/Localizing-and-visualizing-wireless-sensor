@@ -1,3 +1,7 @@
+This is the module developed by Alic for the 2019 Fall EE202 course project.
+#Function:
+
+
 This is the diffApp-write-a-block package meant as a guide to building
 out-of-tree packages. To use the diffApp blocks, the Python namespaces
 is in 'diffApp', which is imported as:
