@@ -22,7 +22,7 @@ Install:
     mkdir build >> cd build >> cmake .. >> make >> make test >> sudo make install >> sudo ldconfig
 ----------------------------------
 Folder:
-    /grc folder contains GNURadio flowchart diagram as GNURadio setup for this module and blocks
+    Project/GNURadio_files folder contains GNURadio flowchart diagram as GNURadio setup for this module and blocks
 ------------------------------------
 This is the diffApp-write-a-block package meant as a guide to building
 out-of-tree packages. To use the diffApp blocks, the Python namespaces
