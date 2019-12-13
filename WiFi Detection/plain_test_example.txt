@@ -1,0 +1,227 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       fe80::5a97:bdff:fe79:f300 ff02::1               ICMPv6   90     Multicast Listener Query
+
+Frame 1: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface 0
+Ethernet II, Src: Cisco_79:f3:00 (58:97:bd:79:f3:00), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::5a97:bdff:fe79:f300 (fe80::5a97:bdff:fe79:f300), Dst: ff02::1 (ff02::1)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000183       fe80::5a97:bdff:fe79:f300 ff02::1               ICMPv6   90     Multicast Listener Query
+
+Frame 2: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface 0
+Ethernet II, Src: Cisco_79:f3:00 (58:97:bd:79:f3:00), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::5a97:bdff:fe79:f300 (fe80::5a97:bdff:fe79:f300), Dst: ff02::1 (ff02::1)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000482       fe80::5a97:bdff:fe79:f300 ff02::1               ICMPv6   90     Multicast Listener Query
+
+Frame 3: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface 0
+Ethernet II, Src: Cisco_79:f3:00 (58:97:bd:79:f3:00), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::5a97:bdff:fe79:f300 (fe80::5a97:bdff:fe79:f300), Dst: ff02::1 (ff02::1)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.653475       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0x7426 PTR 0.0.3.f.9.7.e.f.f.f.d.b.7.9.a.5.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+
+Frame 4: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.654397       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0x51f7 PTR 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
+
+Frame 5: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.656607       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      196    Standard query response 0x7426 No such name PTR 0.0.3.f.9.7.e.f.f.f.d.b.7.9.a.5.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa SOA b.ip6-servers.arpa
+
+Frame 6: 196 bytes on wire (1568 bits), 196 bytes captured (1568 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.656614       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      196    Standard query response 0x51f7 No such name PTR 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa SOA b.ip6-servers.arpa
+
+Frame 7: 196 bytes on wire (1568 bits), 196 bytes captured (1568 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.652849       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      86     Standard query 0xa9dd PTR 159.4.179.131.in-addr.arpa
+
+Frame 8: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.653810       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      85     Standard query 0x3f1f PTR 1.128.97.128.in-addr.arpa
+
+Frame 9: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.657760       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      400    Standard query response 0xa9dd PTR 159.4.179.131.in-addr.arpa PTR wifi-131-179-4-159.host.ucla.edu NS Ns4.dns.ucla.edu NS Ns2.dns.ucla.edu NS Ns1.dns.ucla.edu NS Ns3.dns.ucla.edu A 192.35.225.7 AAAA 2607:f010:3fe:12:0:ff:fe01:35 A 54.201.38.106 AAAA 2600:1f14:793:a600::53 A 54.236.209.157 AAAA 2600:1f18:21d4:e000::53 A 3.104.50.254 AAAA 2406:da1c:e21:8600::53
+
+Frame 10: 400 bytes on wire (3200 bits), 400 bytes captured (3200 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 1.658140       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      371    Standard query response 0x3f1f PTR 1.128.97.128.in-addr.arpa PTR cache-128-1.dns.ucla.edu NS ns4.dns.ucla.edu NS ns2.dns.ucla.edu NS ns3.dns.ucla.edu NS ns1.dns.ucla.edu A 192.35.225.7 AAAA 2607:f010:3fe:12:0:ff:fe01:35 A 54.201.38.106 AAAA 2600:1f14:793:a600::53 A 54.236.209.157 AAAA 2600:1f18:21d4:e000::53 A 3.104.50.254 AAAA 2406:da1c:e21:8600::53
+
+Frame 11: 371 bytes on wire (2968 bits), 371 bytes captured (2968 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 2.000836       fe80::1ca5:bbe0:76f:fe80 ff02::16              ICMPv6   170    Multicast Listener Report Message v2
+
+Frame 12: 170 bytes on wire (1360 bits), 170 bytes captured (1360 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::1ca5:bbe0:76f:fe80 (fe80::1ca5:bbe0:76f:fe80), Dst: ff02::16 (ff02::16)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.653311       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0xb07f PTR 0.8.e.f.f.6.7.0.0.e.b.b.5.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+
+Frame 13: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 2.654269       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0xa71b PTR 6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
+
+Frame 14: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 64612, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 2.656291       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      196    Standard query response 0xb07f No such name PTR 0.8.e.f.f.6.7.0.0.e.b.b.5.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa SOA b.ip6-servers.arpa
+
+Frame 15: 196 bytes on wire (1568 bits), 196 bytes captured (1568 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 2.656663       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      196    Standard query response 0xa71b No such name PTR 6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa SOA b.ip6-servers.arpa
+
+Frame 16: 196 bytes on wire (1568 bits), 196 bytes captured (1568 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 64612
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 3.701097       wifi-131-179-4-159.host.ucla.edu 239.255.255.250       SSDP     217    M-SEARCH * HTTP/1.1 
+
+Frame 17: 217 bytes on wire (1736 bits), 217 bytes captured (1736 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: 239.255.255.250 (239.255.255.250)
+User Datagram Protocol, Src Port: 50857, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 4.211247       2607:f010:2e9:3:3859:c914:1ade:55b1 2606:4700:20::681a:bf0 TCP      74     50616 → 443 [ACK] Seq=1 Ack=1 Win=4096 Len=0
+
+Frame 18: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: Cisco_79:f1:40 (58:97:bd:79:f1:40)
+Internet Protocol Version 6, Src: 2607:f010:2e9:3:3859:c914:1ade:55b1 (2607:f010:2e9:3:3859:c914:1ade:55b1), Dst: 2606:4700:20::681a:bf0 (2606:4700:20::681a:bf0)
+Transmission Control Protocol, Src Port: 50616, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 4.216196       2606:4700:20::681a:bf0 2607:f010:2e9:3:3859:c914:1ade:55b1 TCP      74     [TCP ACKed unseen segment] 443 → 50616 [ACK] Seq=1 Ack=2 Win=34 Len=0
+
+Frame 19: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 6, Src: 2606:4700:20::681a:bf0 (2606:4700:20::681a:bf0), Dst: 2607:f010:2e9:3:3859:c914:1ade:55b1 (2607:f010:2e9:3:3859:c914:1ade:55b1)
+Transmission Control Protocol, Src Port: 443, Dst Port: 50616, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 4.653578       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      88     Standard query 0x30e6 PTR 250.255.255.239.in-addr.arpa
+
+Frame 20: 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 53518, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 4.654540       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0x4023 PTR 1.b.5.5.e.d.a.1.4.1.9.c.9.5.8.3.3.0.0.0.9.e.2.0.0.1.0.f.7.0.6.2.ip6.arpa
+
+Frame 21: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 53518, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 4.654541       wifi-131-179-4-159.host.ucla.edu cache-128-1.dns.ucla.edu DNS      132    Standard query 0xb7cd PTR 0.f.b.0.a.1.8.6.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0.0.7.4.6.0.6.2.ip6.arpa
+
+Frame 22: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: All-HSRP-routers_01 (00:00:0c:07:ac:01)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: cache-128-1.dns.ucla.edu (128.97.128.1)
+User Datagram Protocol, Src Port: 53518, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 4.656851       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      145    Standard query response 0x30e6 No such name PTR 250.255.255.239.in-addr.arpa SOA sns.dns.icann.org
+
+Frame 23: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 53518
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 4.657310       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      207    Standard query response 0x4023 No such name PTR 1.b.5.5.e.d.a.1.4.1.9.c.9.5.8.3.3.0.0.0.9.e.2.0.0.1.0.f.7.0.6.2.ip6.arpa SOA ib00f2.csb1.ucla.net
+
+Frame 24: 207 bytes on wire (1656 bits), 207 bytes captured (1656 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 53518
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 4.702205       wifi-131-179-4-159.host.ucla.edu 239.255.255.250       SSDP     217    M-SEARCH * HTTP/1.1 
+
+Frame 25: 217 bytes on wire (1736 bits), 217 bytes captured (1736 bits) on interface 0
+Ethernet II, Src: Apple_bb:ba:85 (a4:5e:60:bb:ba:85), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: wifi-131-179-4-159.host.ucla.edu (131.179.4.159), Dst: 239.255.255.250 (239.255.255.250)
+User Datagram Protocol, Src Port: 50857, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 4.705824       cache-128-1.dns.ucla.edu wifi-131-179-4-159.host.ucla.edu DNS      194    Standard query response 0xb7cd No such name PTR 0.f.b.0.a.1.8.6.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0.0.7.4.6.0.6.2.ip6.arpa SOA leah.ns.cloudflare.com
+
+Frame 26: 194 bytes on wire (1552 bits), 194 bytes captured (1552 bits) on interface 0
+Ethernet II, Src: Cisco_79:f1:40 (58:97:bd:79:f1:40), Dst: Apple_bb:ba:85 (a4:5e:60:bb:ba:85)
+Internet Protocol Version 4, Src: cache-128-1.dns.ucla.edu (128.97.128.1), Dst: wifi-131-179-4-159.host.ucla.edu (131.179.4.159)
+User Datagram Protocol, Src Port: 53, Dst Port: 53518
+Domain Name System (response)
