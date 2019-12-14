@@ -100,7 +100,7 @@ We implemented the AR application in Python using OpenCV for the image processin
 
 Once the initial localization has taken place, the spherical coordinates are updated from the gyroscope readings. The gyroscope provides data in units of degrees per second. We sample this data every 50 ms and multiply by 50 ms to integrate it, thereby obtaining the number of degrees that the camera moved in that time interval. The angle change along the x, y, and z axes are represented by α, β, and ɣ, respectively. The updated coordinates x’, y’, and z’ can be found by using the following operation.
 
-![](images/matrix.png)
+![](images/matrix.PNG)
 
 After the updated coordinates have been calculated, we use OpenCV to draw a circle centered at the new location in the image.
 
