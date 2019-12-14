@@ -139,7 +139,7 @@ Another option would be to experiment with full antenna arrays. For example, the
 While the current AR application does a good job at tracking a spot using gyroscope measurements, its accuracy could be improved with several methods. One simple improvement would be to use OpenCV’s object tracking capabilities. After the initial localization of the sensor, we could designate a patch in the image and have OpenCV keep track of the spot. This would work if the sensor could be clearly recognized, perhaps having a bright color, but would not work if the sensor was hidden behind a wall. Another approach would be to use an AR framework like ARCore to perform accurate tracking once the initial location has been found. This would significantly improve the quality of the tracking, but would also increase the overhead.
 
 ## Links
-* [Final Video]()
+* [Final Video](https://www.youtube.com/watch?v=uNyi2rIWNFw)
 * [Midterm Slides](https://docs.google.com/presentation/d/1LzhMSHXwGUKzLoH9U3LpD5Lpro57VzhPEua1SPNTdw0/edit?usp=sharing)
 * [Final Slides](https://docs.google.com/presentation/d/17b3BoW3Al1qonz2HLCKMBJaqk9Q_wKXkKNC4qkhbflI/edit?usp=sharing)
 * [GitHub Repo](https://github.com/uclalch/Localizing-and-visualizing-wireless-sensor/)
