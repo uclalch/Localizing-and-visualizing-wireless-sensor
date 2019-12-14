@@ -13,7 +13,7 @@ One suggested use of Augmented Reality (AR) is in “smart-factories”, where w
 #### Direction of Arrival
 The Direction of Arrival (DoA) of a wireless signal can be deduced from the time it arrives to a set of antennas. Most research focuses on antenna arrays, where 4 or more antennas are arranged in a specific configuration to accurately determine the direction. It is also possible to estimate the direction of the signal using only 2 antennas. Consider the following diagram.
 
-![](images/antennas.png)
+![](images/antennas.PNG)
 
 In the left image, the signal arrives at both antennas at the same time. On the right, there is a large difference in the arrival time between the first and second antenna. Suppose the antennas are attached to the back of a tablet computer. If the tablet is directly facing the wireless source, it would look like the image on the left. Similarly, if the tablet is rotated 90 degrees from the source, the arrangement of the antennas would look like the image on the right. This suggests that we can determine that we are facing a wireless source when the signal arrives at the antennas at the same time, and that we are facing perpendicular to the source when the time difference between arrival at both antennas is maximized.
 
@@ -24,7 +24,7 @@ Consider the following equation. In this case, the variables include:
 - φ: Azimuth angle between receiver and sender
 - θ: Elevation angle between receiver and sender
 
-![](images/phase.png)
+![](images/phase.PNG)
 
 The distance between the antennas is fixed, and suppose we focus on a single wavelength. If we keep the elevation angle the same and vary the azimuth, we can observe the phase difference to determine if we are facing the wireless source or facing a perpendicular direction. Further, we can use a similar process to determine the elevation angle by fixing the azimuth and rotating the device around the Y-axis. This process allows us to estimate the azimuth and elevation coordinates of the wireless signal source.
 
@@ -33,19 +33,19 @@ Note that there is some ambiguity about the exact direction of the signal. For e
 #### 3D Spaces and Images
 We commonly think of locations in 3D space in terms of x, y, and z coordinates. However, it is also possible to represent locations in spherical coordinates using φ, θ, and r. The following relationship allows us to convert between the two representations.
 
-![](images/relation.png)
+![](images/relation.PNG)
 
 Given a 3D coordinate and an image of the space containing the location, we can map the location in space to a spot in the image. Consider the following diagram.
 
-![](images/camera.png)
+![](images/camera.PNG)
 
 The relationship between the real coordinates and the image plane is as follows.
 
-![](images/toPixelBefore.png)
+![](images/toPixelBefore.PNG)
 
 In this case, f equals the focal length divided by the pixel size of the image sensor. If we replace x, y, and z in this equation with their equivalents in spherical coordinates, we arrive at the following relationship. Note that r is cancelled out of the final equation, so we only have to consider φ and θ.
 
-![](images/toPixelAfter.png)
+![](images/toPixelAfter.PNG)
 
 ### Prior Work
 Our main reference is [When IoT met Augmented Reality](https://dl.acm.org/citation.cfm?id=3326079), which describes the implementation of the AR system described in the introduction. Notably, although several useful methods are discussed, the paper assumes that it is trivial to find the phase difference. Our experience suggests that it is difficult to design a GNU Radio that calculates the phase difference.
@@ -60,7 +60,7 @@ Our project uses 2 B205mini USRPs to act as the two receiving antennas. We also 
 
 We also collect data from the gyroscope sensor, so we use the Windows Sensor Library. Because the sensor library only runs on Windows and GNU Radio runs on a Linux virtual machine, we developed a local server that records our sensor and phase difference readings.
 
-![](images/setup.png)
+![](images/setup.PNG)
 
 Finally, this data is provided to the AR application which superimposes information about the sensor onto a live video stream of the environment. The entire project is run on a Surface Pro, which allows us to run Windows applications and make use of the device’s camera and IMU sensors.
 
